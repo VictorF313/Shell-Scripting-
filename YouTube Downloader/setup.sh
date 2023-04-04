@@ -1,5 +1,5 @@
 #!/usr/bin/bash
-echo -e "Downloading the dependencies"
+echo -e "Downloading dependencies"
 pkg update && pkg upgrade -y
 pkg install python
 pkg install python-pip
