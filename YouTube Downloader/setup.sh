@@ -4,7 +4,7 @@ pkg update && pkg upgrade -y
 pkg install python
 pkg install python-pip
 pip install yt-dlp
-echo -e "Give access to the storage"
+echo -e "Give storage access"
 sleep 2
 termux-setup-storage
 sleep 5
