@@ -1,7 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/bash
 echo "Starting Download"
 sleep 5
-fpath='/data/data/com.termux/files/home/storage>
+fpath='/data/data/com.termux/files/home/storage/shared/Youtube
  if [[ "$1" == *"shorts"* ]]; then
    yt-dlp -P $fpath $1
    exit
