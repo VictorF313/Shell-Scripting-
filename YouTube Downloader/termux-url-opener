@@ -1,4 +1,3 @@
-
 #!/data/data/com.termux/files/usr/bin/bash
 echo "Starting Download"
 sleep 5
@@ -10,5 +9,3 @@ fpath='/data/data/com.termux/files/home/storage>
  else
                  yt-dlp -P $fpath $1
  fi
-
-
